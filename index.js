@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const uri='mongodb+srv://kratika-mtalkz:kratika-mtalkz@cluster0.4o3dgcq.mongodb.net/?retryWrites=true&w=majority';
+const uri='mongodb+srv://<username>:<password>@cluster0.4o3dgcq.mongodb.net/?retryWrites=true&w=majority';
 //const uri='mongodb://localhost:27017/employeeDB';
 const employeeSchema=mongoose.Schema({
     name:String,
